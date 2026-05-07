@@ -8,6 +8,38 @@ body {
   background: #fff;
 }
 
+.descendant-node {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #fafafa;
+}  
+  
+.descendant-node-1 {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #bafafa;
+}
+
+.descendant-node-2 {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #eafafa;
+}
+
+.descendant-node-3 {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #cafafa;
+}
+  
 header, footer {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1.5rem;
@@ -133,42 +165,52 @@ a {
 }
 
 .family-self {
-  background: #eef7ff;
+ /* background: #eef7ff; */
+}
+
+.generation-1{
+ /* background: #f8f8e8; */
+}
+.generation-2{
+ /* background: #eaf8ff; */
+}
+.generation-3{
+ /* background: #fff0f4; */
 }
 
 .family-0 .descendant-box,
 .descendant-box.family-0 {
-  background: #f4fff0;
+ /*  background: #f4fff0; */
   border-color: #7aaa70;
 }
 
 .family-1 .descendant-box,
 .descendant-box.family-1 {
-  background: #fff4e6;
+ /*  background: #fff4e6; */
   border-color: #d49a4a;
 }
 
 .family-2 .descendant-box,
 .descendant-box.family-2 {
-  background: #f3edff;
+  /* background: #f3edff; */
   border-color: #9a78d6;
 }
 
 .family-3 .descendant-box,
 .descendant-box.family-3 {
-  background: #eaf8ff;
+ /*  background: #eaf8ff; */
   border-color: #5aa6c8;
 }
 
 .family-4 .descendant-box,
 .descendant-box.family-4 {
-  background: #fff0f4;
+  /* background: #fff0f4; */
   border-color: #d67590;
 }
 
 .family-5 .descendant-box,
 .descendant-box.family-5 {
-  background: #f8f8e8;
+  /* background: #f8f8e8; */
   border-color: #b0a94f;
 }
 .event-note {
