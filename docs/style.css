@@ -187,3 +187,8 @@ a {
   padding-left: 0.6rem;
   border-left: 2px solid #ddd;
 }
+
+.latest-note {
+  white-space: normal;
+  line-height: 1.6;
+}
