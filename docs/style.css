@@ -24,6 +24,12 @@ body {
   background: #bafafa;
 }
 
+nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 .descendant-node-2 {
   border: 1px solid #ddd;
   border-radius: 0.5rem;
